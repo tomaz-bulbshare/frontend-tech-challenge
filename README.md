@@ -35,7 +35,7 @@ Build something that you would appreciate using everyday.
 
 5. Please, don't forget to tell us the amount of time you dedicated to this exercise, and what you would have done if you had more time. 
 
-6. To make it easy to review, please push your code to a private repo in github and create a PR for each feature your take on.
+6. To make it easy to review, please push your code to a repo in github and create a PR for each feature your take on.
 Then you can add us as reviewer.
 
 7. If anything is unclear, don't hesitate to reach out.
