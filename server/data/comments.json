@@ -1,0 +1,24 @@
+[
+  {
+    "bcommentref": "bcomment-50482994-E7EE-4628-A49E-43498771CE44",
+    "briefref": "brief-DD650C75-1401-11ED-B757-0A9E4A196D19",
+    "user": {
+      "userref": "user-411817BB-2BF8-47ED-9729-715D49AA2E33",
+      "name": "Bart",
+      "avatar": "https://www.xtrafondos.com/wallpapers/vertical/bart-simpson-minimalista-3459.jpg",
+    },
+    "comment": "I like those shoes!",
+    "submitted_on": "2022-10-27 10:10:58"
+  },
+  {
+    "bcommentref": "bcomment-50482994-E7EE-4628-A49E-43498771CE45",
+    "briefref": "brief-DD650C75-1401-11ED-B757-0A9E4A196D19",
+    "user": {
+      "userref": "user-411817BB-2BF8-47ED-9729-715D49AA2E34",
+      "name": "Ninja",
+      "avatar": "https://img.freepik.com/premium-vector/ninja-girl-head-sport-logo_10051-954.jpg"
+    },
+    "comment": "Really cool shoes!",
+    "submitted_on": "2022-10-27 11:10:58"
+  }
+]
