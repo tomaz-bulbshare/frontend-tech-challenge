@@ -1,13 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import List from './src/components/Feed/List'
 
-function App() {
-
-
+const App = () => {
   return (
     <div className="App">
+      <List />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
