@@ -1,0 +1,16 @@
+/* Feed Overlay */
+
+.feed-overlay {
+    display: grid;
+    grid-template-columns: [left] 1fr [middle] 500px [right];
+}
+
+.scroll-area {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    grid-area: auto / left / auto / middle;
+}
+
+.feed-overlay + .feed {
+    display: none;
+}

@@ -1,0 +1,19 @@
+/* FEED OVERLAY :: PAGE 1 */
+
+.scroll-area .page-1 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.page-1 .content-area {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.page-1 .banner-image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
