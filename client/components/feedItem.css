@@ -1,0 +1,49 @@
+/* Feed Item */
+
+.feed-item {
+    width: 400px;
+    height: 460px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.feed-item .header {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed-item .header .left {
+    display: flex;
+    align-items: center;
+}
+
+.feed-item .header .image {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.feed-item .header .link {
+    text-decoration: none;
+}
+
+.feed-item .main-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    background-color: black;
+}
+
+.feed-item .title {
+    font-weight: bold;
+    color: white;
+    margin: 5%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
