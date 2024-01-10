@@ -1,0 +1,53 @@
+/* Comments */
+
+.comment-area .sticky-content {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.comment-area .comment-header {
+    display: flex;
+    padding: 10px;
+}
+
+.comment-area .comment-header .brand-logo {
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.comment-area .comment-header .brand-name {
+    margin-left: 7px;
+}
+
+.comment-area .comment-list {
+    background-color: lightgrey;
+    height: 100%;
+}
+
+/* Comment */
+
+.comment-list .comment {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-list .comment .avatar {
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.comment-list .comment .text-wrapper {
+    margin-left: 10px;
+}
+
+.comment-list .comment .name {
+    margin-bottom: 0;
+}
+
+.comment-list .comment .text {
+    margin-top: 0;
+}

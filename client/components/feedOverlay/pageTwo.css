@@ -1,0 +1,31 @@
+/* FEED OVERLAY :: PAGE 2 */
+
+.scroll-area .page-2 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.page-2 .content-area {
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-2 .brand-logo {
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.page-2 .description {
+    padding: 2em 1em;
+}
+
+.page-2 .ad-image {
+    width: 100%;
+    object-fit: contain;
+}

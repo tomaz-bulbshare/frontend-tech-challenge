@@ -1,9 +1,8 @@
-
 import React, { useEffect, useRef } from 'react';
 import './feed.css';
 import FeedItem from "./FeedItem";
 
-function Feed({ data, fetchNextPage }) {
+function Feed({ data, fetchNextPage, activeItemState}) {
     const target = useRef();
 
     try {
@@ -28,7 +27,7 @@ function Feed({ data, fetchNextPage }) {
         return (
             <div className="feed">
                 {data.map((item, index) => {
-                    return <FeedItem key={index} data={item} />
+                    return <FeedItem key={index} data={item} activeItemState={activeItemState} />
                 })}
                 <span ref={target} className="fetch-next-page"></span>
             </div>
