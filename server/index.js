@@ -7,6 +7,7 @@ const cors = require("cors");
 const app = express()
 app.use(cors());
 app.use(express.static(path.join(__dirname,'assets')));
+app.use(express.static(path.join(__dirname,'data')));
 
 app.listen(4000, function (err) {
   if (err) return err
