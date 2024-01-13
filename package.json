@@ -23,7 +23,7 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "yarn run start:server & react-app-rewired start start",
+    "start": "concurrently \"yarn start:server\" \"react-app-rewired start start --port 3001\"",
     "start:server": "./node_modules/.bin/nodemon server/index.js",
     "build": "react-app-rewired start build",
     "test": "react-app-rewired start test",
