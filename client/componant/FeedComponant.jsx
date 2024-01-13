@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './FeedComponant.css';
+import LazyLoad from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 
 const FeedComponant = () => {
@@ -36,7 +38,9 @@ const FeedComponant = () => {
                 </a>
               </div>
             </div>
+            <LazyLoad height={200} offset={100}>
             <img src={feedItem.banner_image} alt={feedItem.feed_title} className="feed-image" loading='lazy' />
+            </LazyLoad>
             <h2 className="feed-title">{feedItem.feed_title}</h2>
           </div>
         ))}
