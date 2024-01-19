@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+.feed, .no-feed-data {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.feed
+{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px 0;
+}
+
+.feed li
+{
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 10%);
+  flex-grow: 1;
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 30%);
+  position: relative;
+}
+
+.image-container {
+  max-height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.image-container h1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0 10px 0 0;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+.feed li img
+{
+  background-color: aqua;
+  display: block;
+  min-height: 200px;
+  width: 100%;
+}
+
+.details
+{
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details a {
+  color: #0000CC;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
